@@ -16,6 +16,7 @@
       </div>
       <q-btn @click="$emit('onSubmmit', { name: ruleName, active: isActive ? 1 : 0 })"
         icon="save" to="/home" class="full-width q-mt-xl" color="primary"
+        :disable="!ruleName"
         :label="submitButtonLabel" push no-caps />
     </div>
     <div v-else>

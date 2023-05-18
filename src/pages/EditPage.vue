@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <FormRuleComponent :isLoading="isLoading" @onSubmmit="(data) => handleSave(data)"
-      :defaultRule="ruleData" title="Edit Rule" subTitle="test"/>
+      :defaultRule="ruleData" title="Edit Rule" subTitle="Customize house rules effortlessly."/>
   </q-page>
 </template>
 

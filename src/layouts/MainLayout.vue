@@ -1,8 +1,9 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-icon size="2.5em" class="absolute q-mt-md q-ml-md" color="primary" name="roofing" />
-    <q-page-container>
-      <router-view class="q-pa-md"/>
+    <q-icon  @click="$router.push('/')" size="2.5em" class="absolute z-top q-mt-md q-ml-md cursor-pointer"
+      color="primary" name="roofing" />
+    <q-page-container class="row justify-center">
+      <router-view class="q-pa-md page-size"/>
     </q-page-container>
   </q-layout>
 </template>

@@ -6,3 +6,13 @@ input,
 button {
   font-family: "Poppins", sans-serif;
 }
+
+.page-size {
+  min-width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  .page-size {
+    min-width: 500px;
+  }
+}

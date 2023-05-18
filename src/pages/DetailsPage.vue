@@ -3,14 +3,27 @@
     <div class="q-pt-xl">
       <div>
         <strong class="q-mt-md text-primary text-h6">Rule Details:</strong>
-        <p class="text-grey-5">Here you can see all the rules.</p>
+        <p class="text-grey-5">Explore detailed house rules.</p>
       </div>
       <div v-if="!isLoading">
-        <p>Name: {{ ruleData.name }}</p>
-        <p>Id: {{ ruleData.id }}</p>
-        <p>Active: {{ ruleData.active }}</p>
-        <q-btn  icon="edit" :to="`/edit/${$route.params.id}`" class="full-width q-mt-xl" color="primary" label="Edit" push no-caps />
-        <q-btn @click="showAreYouSure = true" icon="delete" class="full-width q-mt-md" color="grey-7" label="Delete" push no-caps />
+        <div class="row justify-between q-mt-lg">
+          <strong class="q-mr-md">Name:</strong> {{ ruleData.name }}
+        </div>
+        <q-separator class="q-mt-sm"/>
+        <div class="row justify-between q-mt-lg">
+          <strong class="q-mr-md">ID:</strong> {{ ruleData.id }}
+        </div>
+        <q-separator class="q-mt-sm"/>
+        <div class="row justify-between q-mt-lg">
+          <strong class="q-mr-md">Active:</strong>
+          <q-icon size="1.5em" color="primary" name="check_circle" v-if="ruleData.active" />
+          <q-icon size="1.5em" color="grey-5" name="cancel" v-else />
+        </div>
+        <q-separator class="q-mt-sm" />
+        <q-btn  icon="edit" :to="`/edit/${$route.params.id}`" class="full-width q-mt-xl"
+          color="primary" label="Edit" push no-caps />
+        <q-btn @click="showAreYouSure = true" icon="delete" class="full-width q-mt-md"
+          color="grey-6" label="Delete" push no-caps />
       </div>
       <div v-else>
         <q-skeleton class="q-mt-sm" height="30px" width="80%" />
