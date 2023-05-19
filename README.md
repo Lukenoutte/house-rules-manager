@@ -1,33 +1,36 @@
-# House Rules Manager (house-rules-manager)
+## 🎯 About
 
-The ultimate app for efficiently managing your house rules and fostering a harmonious living environment.
+Customize house rules effortlessly with our intuitive rule-editing app.
 
-## Install the dependencies
+## 🚀 Technologies
+
+- Vue3
+- Quasar 2
+
+## ✅ Requirements
+
+Before start you will need [Git](https://git-scm.com), [Node](https://nodejs.org/en/) and [Quasar](https://quasar.dev/start/quasar-cli) instaled.
+
+## 🔌 Starting the project
 ```bash
-yarn
-# or
-npm install
+$ git clone https://github.com/Lukenoutte/house-rules-manager.git
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+## Envs
+1. Create a new file in your project directory and name it ".env". 
+
+2. In the .env file, add the following lines:
+
 ```bash
-quasar dev
+BASE_URL=<your_base_url>
+TOKEN=<your_token>
 ```
+## Run
+### 
 
-
-### Lint the files
 ```bash
-yarn lint
-# or
-npm run lint
+$ cd house-rules-manager
+$ npm install
+$ quasar dev
+# The server will initialize in the <http://localhost:port>
 ```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
