@@ -52,9 +52,11 @@ export default defineComponent({
     const isLoading = ref(false)
     const paginationTotalPages = ref(0)
     const paginationCurrentPage = ref(1)
+
     const handleGetRules = async () => {
       isLoading.value = true
       const data = await getRulesList({ currentPage: paginationCurrentPage.value })
+      if (!data) return
       rulesList.value = data.entities
       paginationTotalPages.value = data.pagination.total_pages
       paginationCurrentPage.value = data.pagination.current_page
@@ -64,7 +66,8 @@ export default defineComponent({
       handleGetRules()
     })
     onMounted(() => {
-      handleGetRules()
+      isLoading.value = true
+      setTimeout(() => { handleGetRules() }, 300)
     })
 
     return {

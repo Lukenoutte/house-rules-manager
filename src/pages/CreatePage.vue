@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <FormRuleComponent @onSubmmit="(data) => onClickSave(data)"
-      title="Add Rule" subTitle="Create house rules easily." submitButtonLabel="Create"/>
+      title="Add Rule" subTitle="Create house rules easily." submitButtonLabel="Add"/>
   </q-page>
 </template>
 
