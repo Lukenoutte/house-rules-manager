@@ -9,7 +9,7 @@ Customize house rules effortlessly with our intuitive rule-editing app.
 
 ## ✅ Requirements
 
-Before start you will need [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) instaled.
+Before start you will need [Git](https://git-scm.com), [Node](https://nodejs.org/en/) and [Quasar](https://quasar.dev/start/quasar-cli) instaled.
 
 ## 🔌 Starting the project
 ```bash
