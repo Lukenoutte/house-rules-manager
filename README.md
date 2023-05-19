@@ -13,7 +13,7 @@ Before start you will need [Git](https://git-scm.com) and [Node](https://nodejs.
 
 ## 🔌 Starting the project
 ```bash
-$ git clone https://github.com/Lukenoutte/noutte-platform-nuxt.git
+$ git clone https://github.com/Lukenoutte/house-rules-manager.git
 ```
 
 ## Envs
@@ -29,7 +29,7 @@ TOKEN=<your_token>
 ### 
 
 ```bash
-$ cd noutte-platform-nuxt
+$ cd house-rules-manager
 $ npm install
 $ quasar dev
 # The server will initialize in the <http://localhost:port>
