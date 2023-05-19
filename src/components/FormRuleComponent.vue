@@ -30,7 +30,7 @@
 import { watch, defineComponent, ref } from 'vue'
 
 export default defineComponent({
-  name: 'EditPage',
+  name: 'FomRuleComponent',
   props: {
     title: {
       type: String,
