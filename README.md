@@ -2,6 +2,9 @@
 
 Customize house rules effortlessly with our intuitive rule-editing app.
 
+
+![homerules](https://github.com/Lukenoutte/house-rules-manager/assets/32497719/1ab26e88-bd2d-406f-aea6-1bf5db363128)
+
 ## 🚀 Technologies
 
 - Vue3
