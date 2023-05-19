@@ -1,33 +1,26 @@
-# House Rules Manager (house-rules-manager)
+## 🎯 About
 
-The ultimate app for efficiently managing your house rules and fostering a harmonious living environment.
+Customize house rules effortlessly with our intuitive rule-editing app.
 
-## Install the dependencies
+## 🚀 Technologies
+
+- Vue3
+- Quasar 2
+
+## ✅ Requirements
+
+Before start you will need [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) instaled.
+
+## 🔌 Starting the project
 ```bash
-yarn
-# or
-npm install
+$ git clone https://github.com/Lukenoutte/noutte-platform-nuxt.git
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### 
+
 ```bash
-quasar dev
+$ cd noutte-platform-nuxt
+$ npm install
+$ quasar dev
+# The server will initialize in the <http://localhost:port>
 ```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
