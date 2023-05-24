@@ -26,9 +26,9 @@
           color="grey-6" label="Delete" push no-caps />
       </div>
       <div v-else>
-        <q-skeleton class="q-mt-sm" height="30px" width="80%" />
-        <q-skeleton class="q-mt-sm" height="30px" width="80%"/>
-        <q-skeleton class="q-mt-sm" height="30px" width="40%"/>
+        <q-skeleton class="q-mt-lg" height="30px"/>
+        <q-skeleton class="q-mt-lg" height="30px"/>
+        <q-skeleton class="q-mt-lg" height="30px"/>
       </div>
     </div>
     <q-dialog v-model="showAreYouSure">
